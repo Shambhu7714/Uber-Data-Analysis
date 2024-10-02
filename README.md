@@ -1,23 +1,22 @@
-
-# Uber Data Analysis
+# Uber Dataset Analysis
 
 ## Project Description
 This project analyzes Uber ride data to derive insights about travel patterns, usage, and other important metrics. It involves checking the dataset for missing values, duplicates, and generating meaningful insights about the data.
 
 ### 1. Libraries Used
 The following libraries are required to run the analysis:
-``python
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-``
+```
 
 ### 2. Load the Data
 Load the dataset using pandas:
-``python
+```python
 df = pd.read_csv("D:\\YBI\\Uber Data\\UberDataset.csv")
-``
+```
 
 ### 3. Data Checks to Perform
 - **Check for missing values**
@@ -29,7 +28,7 @@ df = pd.read_csv("D:\\YBI\\Uber Data\\UberDataset.csv")
 
 ### 4. Initial Exploration
 Preview the first few and last few rows of the dataset:
-``python
+```python
 df.head()
 df.tail()
 ```
@@ -98,7 +97,3 @@ Preview the cleaned dataset:
 ```python
 df.head()
 ```
-
----
-
-This README file provides a step-by-step breakdown of loading and cleaning the dataset, handling missing values, and generating useful insights.
