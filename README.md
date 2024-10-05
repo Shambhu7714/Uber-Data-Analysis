@@ -15,7 +15,8 @@ import seaborn as sns
 ### 2. Load the Data
 Load the dataset using pandas:
 ```python
-df = pd.read_csv("D:\\YBI\\Uber Data\\UberDataset.csv")
+#dataset path 
+df = pd.read_csv("D:\\YBI\\Uber Data\\UberDataset.csv") 
 ```
 
 ### 3. Data Checks to Perform
